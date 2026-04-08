@@ -5,7 +5,6 @@
 > the script operates without needing heavy external dependencies like nmap, providing a rapid local host mapping solution.
 - **the engine:** silently interrogates the OS to extract the active network interface and calculate the local network base.
 - **the experience:** features an interactive cli with a real-time carriage return heartbeat log, strict input validation, and robust error handling.
-> the goal is to have a rapid local host mapping without nmap dependencies
 
 ## prerequisites
 - **python 3.x**, uses only standard built-in libraries (no `pip install` required)
