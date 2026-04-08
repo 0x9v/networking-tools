@@ -23,6 +23,10 @@ else:
 
 for i in range(1, 255):
     target_ip = f"{network_base}{i}"
+
+    sys.stdout.write(f"\r[*] scanning: {target_ip} ...       ")
+    sys.stdout.flush()
+
     command = f"ping -c 1 -W 1 {target_ip} > /dev/null 2>&1"
     response = os.system(command)
 
