@@ -1,8 +1,7 @@
 # sweeper.py
-> a lightweight python-based cli tool that maps local network with automated subnet detection.
+a lightweight python-based cli tool that maps local network with automated subnet detection.
 ## overview
 > 
-> the script operates without needing heavy external dependencies like nmap, providing a rapid local host mapping solution.
 - **the engine:** silently interrogates the OS to extract the active network interface and calculate the local network base.
 - **the experience:** features an interactive cli with a real-time carriage return heartbeat log, strict input validation, and robust error handling.
 
